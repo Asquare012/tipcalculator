@@ -25,25 +25,25 @@
         <div id="left">
             <div class="top">
                 Bill
-
-                <input type="number" id="inp" placeholder="0" />
+                <br />
+                <input type="number" id="inp" placeholder="0" required />
                 <img src="icon-dollar.svg" alt="icon-dollar" />
             </div>
             <div class="middle">
                 <h5>Select Tip %</h5>
                 <div id="butt">
-                    <button id="one">5%</button>
-                    <button>10%</button>
-                    <button>15%</button>
-                    <button>25%</button>
-                    <button>50%</button>
-                    <input type="number" placeholder=" Custom" />
+                    <button id="one" class="same">5%</button>
+                    <button id="two" class="same">10%</button>
+                    <button id="three" class="same">15%</button>
+                    <button id="four" class="same">25%</button>
+                    <button id="five" class="same">50%</button>
+                    <input id="six" type="number" placeholder=" Custom" />
                 </div>
             </div>
             <div class="bottom">
-                <h5>Number of People</h5>
+                <h5>Number of People <span id="alert" style="color: red"></span></h5>
 
-                <input type="number" id="inp" placeholder="0" />
+                <input type="number" id="inp" class="second-inp" placeholder="0" required />
                 <img src="icon-person.svg" alt="icon-person" />
             </div>
         </div>
@@ -55,18 +55,18 @@
                         <br />
                         <span id="per"> / Person</span>
                     </div>
-                    <div class="right">$0.00</div>
+                    <div class="right" id="per-person">$0.00</div>
                 </div>
                 <div class="second">
                     <div class="left">
                         Total <br />
                         <span id="per"> / Person</span>
                     </div>
-                    <div class="right">$0.00</div>
+                    <div class="right" id="total">$0.00</div>
                 </div>
             </div>
             <div id="bottom">
-                <button>RESET</button>
+                <button id="reset">RESET</button>
             </div>
         </div>
     </div>
