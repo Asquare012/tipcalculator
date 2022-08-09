@@ -105,7 +105,7 @@ input[placeholder] {
     color: #414849;
 }
 
-#box #butt button {
+#box #butt .same {
     outline: none;
     border: none;
     height: 35px;
@@ -125,6 +125,10 @@ input[placeholder] {
 }
 
 #box #butt button:focus {
+    background-color: #02a28c;
+}
+
+#box #butt button:active {
     background-color: #02a28c;
 }
 
@@ -210,13 +214,13 @@ input[placeholder] {
 #right #bottom button {
     height: 40px;
     width: 80%;
-    background-color: #04bea6;
+    background-color: #057263;
     border: none;
     outline: none;
     border-radius: 5px;
     font-size: 14px;
     cursor: pointer;
-    color: #dae2e4;
+    color: #012933;
     font-weight: bold;
 }
 
@@ -278,6 +282,7 @@ input[placeholder] {
     body {
         background-color: #ffffff;
         height: 100vh;
+        overflow-x: hidden;
     }
     #title {
         width: 100vw;
